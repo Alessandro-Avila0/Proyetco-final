@@ -90,7 +90,7 @@ private static void elegirPokemon(Scanner scanner, Entrenador entrenador) {
         default -> throw new IllegalStateException("Opción invalida");
     };
     entrenador.agregarPokemon(pokemon);
-    System.out.printf("¡Has elegido a %s! \n", pokemon.getNombre());
+    System.out.printf("¡Has elegido a %s! ", pokemon.getNombre());
 }
 
 // Función para mejorar un Pokémon
